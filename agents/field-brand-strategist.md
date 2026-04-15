@@ -119,9 +119,16 @@ Bill is the decider on every messaging question. Nothing is locked. These are wo
 - **Category (public register) — working:** Field Wealth Intelligence
 - **Category (strategic register) — working:** "We're building the Wealth Intelligence Network"
 - **RIA narrative lead — working:** "Groundwork for modern wealth management."
+- **One-liner candidates — working (all live):** A) "Field is the operating foundation for modern wealth management." B) "Field turns fragmented advisor data into the intelligence that drives growth and retention." C) "See your firm. Finally."
+- **Pillars — working (ranked by advisor pain):** See / Find / Be ready. Naming is Will's shorthand; Bill to finalize verbal frame.
+- **Product suite — working (four offerings):** (1) Foundation [TBD name] — semantic intelligence layer, May 5 launch. (2) Advisor & Firm Experience — frontend product (unified advisor + firm, one offering), not May 5. (3) Asset Manager OS — distribution intelligence. (4) BridgeFT WealthTech API. Atlas, private markets product, and API marketplace are out of scope.
+- **Foundation naming parameters — working:** Literal↔Evocative / Standalone↔Field-prefixed / Accessible↔Pedigreed / Short↔Storied. Candidate buckets: Plain (Foundation, Ground, Core, Graph), Greek/Roman (Terra, Stoa, Arche, Aegis, Agora), Historical (Mendel, Ada, Euclid, Kepler). Killed by Bill: infrastructure metaphors as a class; Loom, Grid, Mesh, Anchor, Spine, Axis, Mercator, Dewey, Linnaeus, Mendeleev, Bedrock, Keystone, Fundus, Forum — do not resurface.
+- **Luca flag — active:** "Luca" is BridgeFT's internal pipeline name, not a product brand. Keep internal; never let it leak into customer-facing language.
 - **Governance model — working:** RIAs own their data. Network participation is opt-in. Asset managers and wealthtechs fund the network, which subsidizes RIA pricing.
-- **Vocabulary rule — working:** Field Platform = software. Field Network = multi-sided system. Drop "ecosystem" from formal brand language.
+- **Vocabulary rule — working:** Field Platform = software. Field Network = multi-sided system (strategic category, not a product). Drop "ecosystem" from formal brand language.
 - **BridgeFT phasing — working:** Phase 1 light endorsement (May–Aug 2026), Phase 2 co-equal (Sep–Dec 2026), Phase 3 sunset (January 2027).
+- **Precept phasing — working:** Mirror the BridgeFT Option 1 pattern. Details TBD with Bill.
+- **Sequencing rule:** Lead RIA. Reveal Network. Never pitch all three audiences on one surface.
 
 Full context for each of these working positions, and the reasoning behind them, lives in `skills/messaging-framework/references/field-ecosystem-decisions.md`. Reload this reference at the start of any session that touches category, ecosystem, brand architecture, or vocabulary — not as doctrine, but so you know what has been considered.
 

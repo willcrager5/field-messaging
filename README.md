@@ -37,10 +37,11 @@ A private plugin for Field's brand, messaging, and positioning work. Built for B
 
 ## Installing
 
+
 In Cowork, install from this repo:
 
 ```
-/plugin install cragerw/field-brand
+/plugin install willcrager5/field-brand
 ```
 
 Or drag-and-drop the packaged `.plugin` file into Cowork's plugin panel.

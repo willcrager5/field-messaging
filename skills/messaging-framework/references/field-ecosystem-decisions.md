@@ -1,8 +1,8 @@
 # Field Ecosystem & Branding — Working Positions
 
-**Date:** April 15, 2026
-**Author:** Will (strawman for Bill's review)
-**Status:** Working positions headed into the 4/15 gating-decisions meeting. Nothing below is locked. Bill is the decider on every messaging question.
+**Date:** April 22, 2026
+**Author:** Will (strawman); updated with April 2026 V2 Brand Messaging Foundation deliverable
+**Status:** V2 — category, pillars, elevator pitch, and voice updated from the Phase 1 brand messaging deliverable. Tagline families are candidates pending Bill's pick. Bill is the decider on every messaging question.
 **Audience:** Bill (owner); shared with Kyung, BridgeFT team, GTM as a starting point
 
 > This document captures Will's current thinking — a strawman developed to move the work forward. Each section represents a working position, not a settled decision. Bill can keep, sharpen, or reject any of it. When something changes, update this doc and log the shift in the messaging journey log.
@@ -11,33 +11,81 @@
 
 ## Category
 
-- **Public / RIA / product:** Field Wealth Intelligence
-- **Strategic / investor / partner / press:** "We're building the Wealth Intelligence Network"
-- Two registers, same truth. Bill picks register based on room.
+- **Category name:** Modern Wealth Infrastructure
+- **Tagline (leading candidate):** "The Groundwork for Modern Wealth" *(highlighted in V2 deliverable — see Tagline Candidates section below)*
+- **Prior working positions (superseded):** "Field Wealth Intelligence" (public/RIA) and "Wealth Intelligence Network" (strategic/investor) — both replaced by Modern Wealth Infrastructure.
+- Category operates in two tones; Bill picks based on room:
+  - *Authoritative / industry-level:* "Wealth management has never had a foundation." Observational. Names the structural problem. Stakes the claim.
+  - *Personal / human:* "That's what Field is." Speaks directly to the advisor. Delivers the answer.
 
 ## RIA Narrative Lead
 
-**Groundwork for modern wealth management.**
+**Groundwork for modern wealth management.** *(confirmed — maps to "The Groundwork for Modern Wealth" tagline family)*
 
-Field is the intelligence layer for modern advisory firms — one unified view of every client, every account, every signal, across every system you use. Your data, your clients, your practice, finally working together. You own it. You govern it.
+Your custodians, CRM, portfolio platform, asset managers, cash solutions — they stay exactly as they are. Field draws everything into a single coherent record, finally working together in a way it never has before. The fragmented becomes whole. The invisible, clear.
 
-## One-liner Candidates (pending Bill's pick)
+*Closing line (from V2 deliverable):* "The foundation is here. Build on it."
 
-Three registers, not ranked — each may be used on its own surface:
+## Elevator Pitch (locked — north star for all messaging)
 
-- **A (full pitch):** "Field is the operating foundation for modern wealth management."
-- **B (ops-forward):** "Field turns fragmented advisor data into the intelligence that drives growth and retention."
-- **C (hero / six-word):** "See your firm. Finally."
+> Field is modern wealth infrastructure. The groundwork beneath every tool, every partner, and every relationship in the ecosystem. When data flows freely across all of it, incentives align and capital works harder. Field is a foundation the whole industry can keep building on.
 
-Bill's call on which becomes the homepage hero vs. which lives in deck vs. which stays verbal.
+## Tagline Candidates (Bill to pick)
 
-## Messaging Pillars (three, ranked by advisor pain)
+**Leading candidate** *(highlighted in V2 deliverable):*
+- field / THE GROUNDWORK FOR MODERN WEALTH
 
-1. **See** — One unified view of your firm, your clients, your book. Today advisors toggle between systems and stitch spreadsheets. Field shows what's actually happening.
-2. **Find** — Surface the signals that drive growth and retention. At-risk clients, wallet-share gaps, referral patterns — the firm's growth engine hiding in its own data.
-3. **Be ready** — Answer the questions you couldn't answer before. Firm principals, lead advisors, COOs, CCOs all get the operational clarity they've lacked.
+**The "Common Ground" family** *(lead with shared foundation)*
+- Field / Common ground.
+- Field / The ground the industry runs on.
+- Field / Common ground. Build on it.
+- Field / Common ground. Uncommon intelligence.
 
-Pillars flow directly from the narrative walkthrough. Naming ("See / Find / Be ready") is Will's shorthand — Bill to finalize the verbal frame.
+**The "Build On It" family** *(lead with action and invitation)*
+- Field / Open to build on.
+- Field / Build on it.
+- Field / The intelligence layer. Build on it.
+- Field / The foundation the industry builds on.
+
+**The "Intelligence" family** *(nod to category name)*
+- Field / Where intelligence becomes common ground.
+- Field / Intelligence, open to all.
+- Field / Common ground. Uncommon intelligence.
+
+*Prior one-liner candidates A/B/C superseded by the elevator pitch and tagline families above.*
+
+## Messaging Pillars (five — updated from V2 brand messaging deliverable)
+
+1. **The Complete Picture** — For the first time, advisory firms can see across every household, every relationship, every account — unified, current, and complete. Not fragments. Not workarounds. The full view, in one place, finally available. *Use when: leading with product value, speaking to advisors about what changes day to day, website headlines, ads.*
+
+2. **Connection, Not Replacement** — Field doesn't replace what firms have built. It goes underneath it, connecting what was fragmented. The tools stay. The workflows stay. What changes is that everything finally runs on common ground: connected, coherent, complete. *Use when: addressing objections, explaining the product, differentiating from rip-and-replace solutions.*
+
+3. **Built With the Industry, Not Just For It** — The largest asset managers, wealthtechs, and custodians in the channel are partners in building Field. A collective where no single firm owns the ground, but many tend it together. At the center of all of it is the advisor — the person who carries the trust and owns the relationship. *Use when: building credibility, explaining the ecosystem model, speaking to institutional partners, humanizing the stakes.*
+
+4. **A Field Is Possibility** — A field lets you see far. It holds what's built on it. It's open, boundless, shared. When the foundation is right, scale becomes achievable, advice becomes holistic, and the firm's value compounds. The name is the promise. *Use when: inspiring action, closing a narrative, speaking to growth and future potential.*
+
+5. **Built to Last, Built to Grow** — This is not a product that gets replaced when the next wave arrives. It is infrastructure, the kind that holds steady and gets more powerful as the network grows, the data deepens, and technology advances. The foundation doesn't expire. It compounds. *Use when: speaking to future-proofing, differentiating from point solutions, addressing concerns about AI and technology change, speaking to long-term firm value.*
+
+*Prior pillar shorthand "See / Find / Be ready" superseded by the above.*
+
+## Voice & Tone (from V2 brand messaging deliverable)
+
+**The voice in three words:** Plainspoken. Confident. Human.
+
+**What that means in practice:**
+- *Say the hard thing simply.* The industry's problem is complex. The language describing it shouldn't be. Field earns credibility through clarity, not jargon. If a sentence needs explaining, rewrite it.
+- *Be specific, not sweeping.* Fifteen thousand firms. Five hundred fifty platforms. Real numbers land harder than abstractions. When you can be specific, be specific.
+- *Acknowledge the human cost.* This isn't a technology problem. It's a people problem. The advisor is the person paying the price. Never let the infrastructure language crowd out the human stakes.
+- *Arrive at the point.* Field doesn't wind up. It states. Short sentences. Active verbs. The period earns its place.
+- *Confident, not arrogant.* Field is solving something real and hard. Say so without overselling. The work speaks. The voice amplifies it.
+
+**What Field doesn't sound like:**
+- Not breathless: "Revolutionary. Game-changing. Unprecedented."
+- Not jargon-heavy: "End-to-end synergistic data orchestration."
+- Not timid: "We hope to help firms potentially improve their workflows."
+- Not abstract when specific is available.
+
+---
 
 ## Product Suite — Four Offerings (locked at meeting prep)
 
@@ -136,8 +184,17 @@ RIAs own their data. Network participation is opt-in. Data leaving a firm is agg
 - Internal comms to BridgeFT eng (Tom Kerr + team) on Field-branded new capabilities — this week
 - Sunset comms plan — Q4 2026 planning list
 
-## Change log (4/15 vs. 4/14)
+## Change log
 
+### 4/22 vs. 4/15 (V2 brand messaging deliverable incorporated)
+- Updated: Category — "Modern Wealth Infrastructure" replaces "Field Wealth Intelligence" / "Wealth Intelligence Network"
+- Added: Elevator pitch (locked) — "Field is modern wealth infrastructure..."
+- Added: Tagline families (candidates) — "The Groundwork for Modern Wealth" leading candidate
+- Updated: Messaging pillars — five pillars replace "See / Find / Be ready"
+- Added: Voice & Tone section from V2 deliverable
+- Updated: RIA Narrative Lead — connected to new language and tagline family
+
+### 4/15 vs. 4/14
 - Added: product suite (four offerings), naming parameters, Foundation candidate buckets, Luca flag, Precept phasing, one-liner candidates A/B/C, three pillars, segmentation layers
 - Added: explicit "killed" lists for naming (infrastructure metaphors and named candidates Bill rejected)
 - Clarified: Field Network is strategic category, not a product

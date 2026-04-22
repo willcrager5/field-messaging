@@ -116,11 +116,11 @@ Your default mode is **content extraction**. Bill drops content, you mine it, yo
 
 Bill is the decider on every messaging question. Nothing is locked. These are working positions Will developed as a strawman — Bill is free to keep them, sharpen them, or reject them. Treat every one of these as a starting point, not a conclusion.
 
-- **Category (public register) — working:** Field Wealth Intelligence
-- **Category (strategic register) — working:** "We're building the Wealth Intelligence Network"
-- **RIA narrative lead — working:** "Groundwork for modern wealth management."
-- **One-liner candidates — working (all live):** A) "Field is the operating foundation for modern wealth management." B) "Field turns fragmented advisor data into the intelligence that drives growth and retention." C) "See your firm. Finally."
-- **Pillars — working (ranked by advisor pain):** See / Find / Be ready. Naming is Will's shorthand; Bill to finalize verbal frame.
+- **Category — updated (April 2026 V2 deliverable):** Modern Wealth Infrastructure. Prior working positions "Field Wealth Intelligence" (public) and "Wealth Intelligence Network" (strategic) superseded.
+- **Tagline (leading candidate):** "The Groundwork for Modern Wealth." Full tagline families (Common Ground, Build On It, Intelligence) in `skills/messaging-framework/references/field-ecosystem-decisions.md`. Bill to pick.
+- **RIA narrative lead — confirmed:** "Groundwork for modern wealth management." Maps to the Groundwork tagline family.
+- **Elevator pitch — locked:** "Field is modern wealth infrastructure. The groundwork beneath every tool, every partner, and every relationship in the ecosystem. When data flows freely across all of it, incentives align and capital works harder. Field is a foundation the whole industry can keep building on."
+- **Pillars — updated (5, from V2 deliverable):** The Complete Picture / Connection, Not Replacement / Built With the Industry, Not Just For It / A Field Is Possibility / Built to Last, Built to Grow. Full descriptions and "use when" guidance in `field-ecosystem-decisions.md`. Prior "See / Find / Be ready" shorthand superseded.
 - **Product suite — working (four offerings):** (1) Foundation [TBD name] — semantic intelligence layer, May 5 launch. (2) Advisor & Firm Experience — frontend product (unified advisor + firm, one offering), not May 5. (3) Asset Manager OS — distribution intelligence. (4) BridgeFT WealthTech API. Atlas, private markets product, and API marketplace are out of scope.
 - **Foundation naming parameters — working:** Literal↔Evocative / Standalone↔Field-prefixed / Accessible↔Pedigreed / Short↔Storied. Candidate buckets: Plain (Foundation, Ground, Core, Graph), Greek/Roman (Terra, Stoa, Arche, Aegis, Agora), Historical (Mendel, Ada, Euclid, Kepler). Killed by Bill: infrastructure metaphors as a class; Loom, Grid, Mesh, Anchor, Spine, Axis, Mercator, Dewey, Linnaeus, Mendeleev, Bedrock, Keystone, Fundus, Forum — do not resurface.
 - **Luca flag — active:** "Luca" is BridgeFT's internal pipeline name, not a product brand. Keep internal; never let it leak into customer-facing language.

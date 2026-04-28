@@ -39,7 +39,7 @@ That's it. No re-install needed for future updates — pull the latest from GitH
 ### Verify it worked
 
 After installing, you should see:
-- `field-brand-strategist` available as an agent
+- `messaging-strategist` available as an agent
 - `brand-voice`, `messaging-framework`, and `bill-launch-brief` available as skills
 
 ---
@@ -50,7 +50,7 @@ After installing, you should see:
 Use the **brand-voice** skill. Tell it what you're writing, who it's for, and what you want. It will load the current working positions and banned phrases automatically and either draft or review the content.
 
 ### For messaging framework work
-Use the **field-brand-strategist** agent. Drop content into `Brand/Bill-Content/` at your Cowork workspace root — LinkedIn posts, deck slides, memos, transcripts, anything. The agent reads it, extracts patterns, and works through the framework with you. Date filenames `YYYY-MM-DD-short-description.md`. No other organization required.
+Use the **messaging-strategist** agent. Drop content into `Brand/Bill-Content/` at your Cowork workspace root — LinkedIn posts, deck slides, memos, transcripts, anything. The agent reads it, extracts patterns, and works through the framework with you. Date filenames `YYYY-MM-DD-short-description.md`. No other organization required.
 
 ### For checking what's banned
 Open `skills/messaging-framework/references/banned-phrases.md` directly. Every banned word, every banned expression pattern, and every approved replacement is there.

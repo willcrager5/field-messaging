@@ -22,7 +22,7 @@ This skill applies what's already been decided. It doesn't re-litigate positioni
 Before generating or reviewing anything, load all three:
 
 1. **Working positions** — `skills/messaging-framework/references/field-ecosystem-decisions.md`. Active decisions on category, product suite, pillars, vocabulary, sequencing, and brand architecture. Do not skip this.
-2. **Agent context** — The "Working Positions" section of `agents/field-brand-strategist.md`. Shorthand flags and active rules; faster to apply than the full reference document.
+2. **Agent context** — The "Working Positions" section of `agents/messaging-strategist.md`. Shorthand flags and active rules; faster to apply than the full reference document.
 3. **Banned phrases — master list** — `skills/messaging-framework/references/banned-phrases.md`. The single source of truth for every banned word, banned expression pattern, and style rule. Load it. Enforce every item in every output. Nothing slips through.
 
 If any source has been updated since the last session, the new version takes precedence.

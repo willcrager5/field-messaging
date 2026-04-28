@@ -26,7 +26,7 @@ The skill operates in several modes:
 
 - **Auditing existing messaging:** Use the framework as a checklist to find gaps and inconsistencies.
 
-- **QA-ing content:** Check customer-facing materials against the approved framework.
+- **QA-ing content:** Check customer-facing materials against the approved framework and the banned-phrases master list (`skills/messaging-framework/references/banned-phrases.md`). Load the master list before any QA pass.
 
 ## Feedback loop and observability
 
@@ -432,8 +432,8 @@ Short (1 sentence), medium (1 paragraph), long (3-4 paragraphs) versions of the 
 **Before/after examples (3-5 pairs):**
 Show the voice in action. Bad copy → good copy, with a one-line diagnosis of what changed and why. The team learns from examples faster than from rules.
 
-**The "cheap word" list:**
-Reserve a small section for phrases that sound fine but feel lazy — the tells of generic SaaS copy. "Waiting for," "has been waiting for," "the last [thing] you'll ever need," "supercharge," "revolutionize," "game-changing," "next-generation," "built from the ground up." These aren't wrong — they're just *cheap*. They're what a brand says when it can't think of the specific thing to say. Ban them by name and force the writer to reach for something real.
+**The banned-phrases master list:**
+Load `skills/messaging-framework/references/banned-phrases.md` whenever working on Section 8 or QA-ing content. This is the single source of truth for all banned words, banned expression patterns, and style rules. It supersedes any inline list in this skill or elsewhere in the plugin. Enforce every item. The list covers hard-ban words (with replacements), hard-ban rhetorical patterns (with approved rewrites), and style rules.
 
 **Push back on:**
 - Dictionaries that are just lists without reasoning — people won't internalize the voice, they'll just look things up and move on

@@ -48,10 +48,9 @@ One screen. If the open-task list is long, the brief picks the items that matter
 
 ## Voice rules (short)
 
-Full rules in `references/voice-rules.md`.
+Full rules in `references/voice-rules.md`. Banned-phrases master list: `skills/messaging-framework/references/banned-phrases.md` — load it before generating any brief. Every word and pattern in that file is enforced here without exception.
 
 - Direct, plain-spoken, peer voice.
-- Never "disruptive," "supercharge," "just a heads up," "circling back."
 - Open with the frame, not "Good morning Bill."
 - Task name is usually enough. Add a one-line reminder from the `Notes` column only if the task name is vague.
 - End with a specific push.

@@ -19,12 +19,13 @@ This skill applies what's already been decided. It doesn't re-litigate positioni
 
 ## What to Load Before Running
 
-Before generating or reviewing anything, load:
+Before generating or reviewing anything, load all three:
 
 1. **Working positions** — `skills/messaging-framework/references/field-ecosystem-decisions.md`. Active decisions on category, product suite, pillars, vocabulary, sequencing, and brand architecture. Do not skip this.
 2. **Agent context** — The "Working Positions" section of `agents/field-brand-strategist.md`. Shorthand flags and active rules; faster to apply than the full reference document.
+3. **Banned phrases — master list** — `skills/messaging-framework/references/banned-phrases.md`. The single source of truth for every banned word, banned expression pattern, and style rule. Load it. Enforce every item in every output. Nothing slips through.
 
-If either source has been updated since the last session, the new version takes precedence.
+If any source has been updated since the last session, the new version takes precedence.
 
 ---
 
@@ -58,15 +59,13 @@ Field's brand voice is Bill's voice — sharp, experienced advisor-turned-operat
 - Make claims. Don't hedge into passivity.
 
 **Never use:**
-- "Disruptive," "revolutionary," "unprecedented," "supercharge," "next-generation," "best-in-class," "game-changing"
-- "Leverage" as a verb (use: use, apply, deploy, or name the specific action)
-- "AI-powered" unless the specific AI capability is named
+The complete banned-word and banned-pattern list is in `skills/messaging-framework/references/banned-phrases.md`. It must be loaded before any generate or review session (see "What to Load Before Running" above). Enforce every item. Do not rely on memory or a partial inline list.
+
+Specific Field-brand additions not in the master list:
 - "Ecosystem" in formal brand language — use "platform" or "network" per the vocabulary rule
-- "Synergy," "cutting-edge," "seamlessly," "robust," "holistic," "end-to-end"
-- "Just a heads up," "circling back," "touching base," "wanted to flag"
-- Generic SaaS opener ("Are you struggling with...?" or "In today's fast-paced world...")
 - Questions as headlines — make a claim instead
 - Timid hedges: "We hope to help firms potentially improve their workflows"
+- Generic SaaS openers ("Are you struggling with...?" / "In today's fast-paced world...")
 
 **Use deliberately (context rules apply):**
 - "Advisor-owned" — only after governance model has been stated or is visible in context. Not in cold outreach or first-touch.
@@ -151,10 +150,11 @@ Don't explain every sentence. Flag only the choices worth reviewing.
 
 Run content through four lenses:
 
-1. **Voice** — Does it sound like Field? Peer register? Any throat-clearing, vendor-speak, or generic SaaS phrases?
-2. **Vocabulary** — Are the vocabulary rules being followed? Check: avoid/never words, architecture words (platform vs. network vs. ecosystem), product names at the correct phase, BridgeFT/Precept endorser lines.
-3. **Positioning accuracy** — Does it reflect current working positions? Check: category claim, product suite (four offerings — correct names and scopes), audience sequencing (RIA-first), pillar alignment (See / Find / Be ready).
-4. **Sequencing** — Right message for this surface and audience? Would the wrong audience be confused or misled?
+1. **Banned phrases** — Load `skills/messaging-framework/references/banned-phrases.md` and check every word and expression pattern against the master list. This is the first pass, not an afterthought. Flag every hit by name.
+2. **Voice** — Does it sound like Field? Peer register? Any throat-clearing, vendor-speak, or generic SaaS phrases?
+3. **Vocabulary** — Are the vocabulary rules being followed? Check: avoid/never words, architecture words (platform vs. network vs. ecosystem), product names at the correct phase, BridgeFT/Precept endorser lines.
+4. **Positioning accuracy** — Does it reflect current working positions? Check: category claim, product suite (four offerings — correct names and scopes), audience sequencing (RIA-first), pillar alignment.
+5. **Sequencing** — Right message for this surface and audience? Would the wrong audience be confused or misled?
 
 ### Output format
 

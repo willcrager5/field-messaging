@@ -33,15 +33,13 @@ Bias the push toward messaging and positioning work, because (a) that's the cate
 
 ## Banned phrases
 
-Never in a brief:
+The master list lives at `skills/messaging-framework/references/banned-phrases.md`. Load it before generating any brief. Every word and pattern in that file is enforced here.
 
-- disruptive, revolutionary, supercharge, next-generation, best-in-class
-- "from the ground up"
-- "I hope this finds you well"
-- "circling back," "touching base," "checking in"
-- "as a reminder," "just a heads up"
-- "please let me know"
-- "cheers" or any sign-off flourish
+The following are additional brief-specific rules that layer on top of the master list:
+
+- No sign-off of any kind. The brief ends with the push.
+- No "as a reminder" — state the thing.
+- No "please let me know" — give Bill a specific action with a deadline if one is needed.
 
 ## Length
 

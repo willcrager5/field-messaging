@@ -1,57 +1,97 @@
-# Field Brand
+# Field Messaging Plugin
 
-A private plugin for Field's brand, messaging, and positioning work. Built for Bill.
+A Claude Code plugin for Field's brand, messaging, and positioning work. Available to the full Field team.
 
 ## What's in here
 
-**Field Brand Strategist agent** — A named brand strategist Bill talks to. Introduces itself on first use, reads Bill's content from a single bucket, weights recent content heavier than older content, and drives messaging framework work with Field-specific context already loaded.
+**Field Brand Strategist agent** — A named brand strategist for any Field team member. Introduces itself on first use, reads content from a shared bucket, weights recent content heavier than older content, and drives messaging framework work with Field-specific context already loaded. Bill is the final decider on all working positions.
 
-**Messaging Framework skill** — The 10-section framework (Category, Ecosystem Narrative, Brand Architecture, Messaging Pillars, Segment Messaging, Persona Value Props, Competitive Positioning, Tone/Language/Vocabulary, Elevator Pitches, Objection Handling). Primary mode is content extraction — mine existing content, draft the framework, let Bill react.
+**Brand Voice skill** — Generate new content in Field's voice or review existing content against brand voice, vocabulary rules, and working positions. Works for any surface: LinkedIn posts, emails, deck copy, website sections, one-pagers, press boilerplate, Slack announcements, event bios.
 
-**Field ecosystem decisions** — Reference file with the working positions: category register map, RIA narrative lead, governance/subsidy model, Platform vs. Network vocabulary rule, BridgeFT phased transition. Nothing is locked — Bill is the decider.
+**Messaging Framework skill** — The 10-section framework (Category, Ecosystem Narrative, Brand Architecture, Messaging Pillars, Segment Messaging, Persona Value Props, Competitive Positioning, Tone/Language/Vocabulary, Elevator Pitches, Objection Handling). Primary mode is content extraction — mine existing content, draft the framework, react and refine.
+
+**Banned Phrases master list** — Single source of truth for all vocabulary enforcement. 80+ hard-banned words with replacements, 11 banned expression patterns with approved rewrites, and style rules. Loaded automatically by every skill and the agent.
+
+**Field ecosystem decisions** — Reference file with the working positions: category, RIA narrative lead, tagline families, governance model, Platform vs. Network vocabulary rule, BridgeFT and Precept phased transition. Nothing is locked — Bill is the decider.
 
 **Wealth ecosystem map** — Terrain reference. Thirteen layers of the wealth stack, key players in each, Field's relationship to each. Loaded when positioning, competitive, or segment work comes up.
 
-**Bill's Launch Brief skill** — Reads `Brand/Field-Brand-Launch-Critical-Path-Updated.xlsx`, filters Bill-owned tasks across all detail sheets, and generates a Field Brand Strategist-voiced weekly Monday brief. Output lands in `Brand/Bills-Briefs/YYYY-MM-DD-weekly.md`. Schedule it once with the `schedule` skill (see `skills/bill-launch-brief/references/schedule-setup.md`); Slack DM delivery can be added when a Slack connector is wired.
+**Bill's Launch Brief skill** — Reads `Brand/Field-Brand-Launch-Critical-Path-Updated.xlsx`, filters Bill-owned tasks across all detail sheets, and generates a Field Brand Strategist-voiced weekly Monday brief. Bill-specific; not for general team use.
 
-## How Bill uses it
+---
 
-1. Drop content into `Brand/Bill-Content/` at the Cowork workspace root. Date filenames `YYYY-MM-DD-short-description.md`. Everything goes in one folder — no organization required.
-2. Open a session. The agent introduces itself.
-3. Tell the agent what you want to work on, or let it read your content and tell you what it sees.
+## How to install
 
-## What the agent does
+### Prerequisites
+- Claude Code installed and running
+- Access to a Cowork workspace (or a local folder you point Claude Code at)
+
+### Install command
+
+In Claude Code, run:
+
+```
+/plugin install willcrager5/field-messaging
+```
+
+That's it. No re-install needed for future updates — pull the latest from GitHub and the plugin updates automatically on the next session.
+
+### Verify it worked
+
+After installing, you should see:
+- `field-brand-strategist` available as an agent
+- `brand-voice`, `messaging-framework`, and `bill-launch-brief` available as skills
+
+---
+
+## How to use it
+
+### For content generation or review (most common)
+Use the **brand-voice** skill. Tell it what you're writing, who it's for, and what you want. It will load the current working positions and banned phrases automatically and either draft or review the content.
+
+### For messaging framework work
+Use the **field-brand-strategist** agent. Drop content into `Brand/Bill-Content/` at your Cowork workspace root — LinkedIn posts, deck slides, memos, transcripts, anything. The agent reads it, extracts patterns, and works through the framework with you. Date filenames `YYYY-MM-DD-short-description.md`. No other organization required.
+
+### For checking what's banned
+Open `skills/messaging-framework/references/banned-phrases.md` directly. Every banned word, every banned expression pattern, and every approved replacement is there.
+
+---
+
+## How the agent works
 
 - Reads the full content bucket on first ask, recency-weighted
 - Updates `Brand/Bill-Content/_log.md` after each session so the messaging journey is visible over time
 - Cites source files when it extracts a pattern
-- Pushes back on cheap phrases and data-forward language
+- Pushes back on banned phrases, cheap language, and data-forward advisor copy
 - Produces artifacts to `Brand/Drafts/`, `Brand/Messaging-Framework/`, and `Brand/Decisions/`
-- Uses Bill's workspace naming conventions throughout
+- Asks one question at the end of each session to capture any position shifts
+
+---
 
 ## What the agent doesn't do
 
-- Edit the messaging framework skill itself (maintained separately)
+- Edit the messaging-framework skill itself (maintained separately)
 - Visual design work
 - Non-messaging tasks
 
-## Installing
+---
 
+## Updating the plugin
 
-In Cowork, install from this repo:
+Pull the latest from GitHub:
 
+```bash
+git pull
 ```
-/plugin install willcrager5/field-brand
-```
 
-Or drag-and-drop the packaged `.plugin` file into Cowork's plugin panel.
+No re-install needed. The plugin picks up changes automatically on the next session.
 
-Requires a Cowork workspace pointing at a folder with `Brand/Bill-Content/` (or the agent will create it on first run). Shared setups should sync the workspace via OneDrive, Dropbox, or Google Drive.
+---
 
-## Updating
+## Maintaining it
 
-Pull from this repo — Cowork picks up the new version automatically on next session. No re-install required.
+To add or remove a banned word or phrase: edit `skills/messaging-framework/references/banned-phrases.md` only. All skills and the agent load from that one file — nothing else needs to change.
 
-## Maintained by
+To update working positions: edit `skills/messaging-framework/references/field-ecosystem-decisions.md`. Log the change in `Brand/Bill-Content/_decisions-log.md` with before/after and Bill's reasoning.
 
-Will (cragerw). Update the agent's voice, the skill's sections, or the ecosystem decisions reference directly, commit, push. The repo is the source of truth.
+Maintained by Will (cragerw). Commit and push — the repo is the source of truth.

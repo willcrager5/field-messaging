@@ -13,7 +13,7 @@ Two jobs:
 1. **Generate** — Draft content in Field's brand voice for any surface or format, grounded in the current working messaging positions.
 2. **Review** — Audit existing content against the brand voice, vocabulary rules, and working positions. Return flagged issues and a clean revised version.
 
-This skill applies what's already been decided. It doesn't re-litigate positioning. If the user surfaces a positioning question while using this skill, flag it and route it to the messaging-framework skill or flag it for Bill.
+This skill applies what's already been decided. It doesn't re-litigate positioning. If the user surfaces a positioning question while using this skill, flag it and route it to the messaging-framework skill or escalate to Bill.
 
 ---
 
@@ -46,7 +46,7 @@ If the user hasn't provided these, ask once — briefly. Don't interrogate. Make
 
 **The voice in three words: Plainspoken. Confident. Human.**
 
-Field's brand voice is Bill's voice — sharp, experienced advisor-turned-operator, not a software vendor. These rules hold across all surfaces:
+Field's brand voice is grounded in Bill's voice as founder — sharp, experienced advisor-turned-operator, not a software vendor. These rules hold across all surfaces:
 
 **Always:**
 - Plain-spoken and direct. Short sentences. No throat-clearing.
@@ -71,7 +71,7 @@ Specific Field-brand additions not in the master list:
 - "Advisor-owned" — only after governance model has been stated or is visible in context. Not in cold outreach or first-touch.
 - "Field Network" — strategic context only. Not on RIA-facing surfaces where the network hasn't been introduced.
 - Product name for the data layer — use the locked name once it's decided; use "data foundation" or "intelligence layer" until then.
-- "Foundation" naming candidates — hold off on any candidate name until Bill has decided.
+- "Foundation" naming candidates — hold off on any candidate name until Bill decides.
 
 **Brand vocabulary quick reference:**
 - "Field Platform" = the software. Use on RIA-facing surfaces.
@@ -96,7 +96,7 @@ Don't explain every sentence. Flag only the choices worth reviewing.
 
 ### Surface-specific rules
 
-**LinkedIn (Bill's voice):**
+**LinkedIn (Bill's voice — use when writing on Bill's behalf):**
 - Personal, first-person. This is Bill talking, not Field the company.
 - Plain opener — no "Excited to announce." Open with the thing itself.
 - Short paragraphs, one idea each. Line breaks are structure, not decoration.
@@ -168,7 +168,7 @@ Keep the issues list tight. Flag things that materially contradict voice rules, 
 
 ## What This Skill Does Not Do
 
-- **Does not revisit positioning.** If a review surfaces a positioning question ("is this claim still accurate?"), flag it for messaging-framework or Bill. Don't resolve it here.
-- **Does not override Bill.** If Bill has explicitly approved language that this skill would flag, defer. Note the tension, don't override.
+- **Does not revisit positioning.** If a review surfaces a positioning question ("is this claim still accurate?"), flag it for messaging-framework or escalate to Bill. Don't resolve it here.
+- **Does not override approved language.** If Bill has explicitly approved something this skill would flag, defer. Note the tension, don't override.
 - **Does not generate legal, compliance, or regulatory language.** Route to Andy/legal.
 - **Does not write content for competitive entities** — Field voice only.

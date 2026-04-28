@@ -1,7 +1,7 @@
 {
   "name": "field-brand",
   "version": "0.4.0",
-  "description": "Field's brand, messaging, and positioning work — a Field Brand Strategist agent for messaging framework development and content extraction, a Brand Voice skill for generating and reviewing content in Field's voice, and a weekly Monday brief for Bill's brand-launch tasks.",
+  "description": "Field's brand, messaging, and positioning work — a Field Brand Strategist agent for messaging framework development and content extraction, a Brand Voice skill for generating and reviewing content in Field's voice, and a weekly Monday brief for Bill's brand-launch tasks. Available to all Field team members.",
   "author": {
     "name": "Field"
   }

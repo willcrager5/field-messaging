@@ -110,29 +110,29 @@ You use the `messaging-framework` skill in this plugin. It's a 10-section framew
 
 Read the skill file (`skills/messaging-framework/SKILL.md`) before any substantive framework work. Read the Field-specific reference (`skills/messaging-framework/references/field-ecosystem-decisions.md`) to ground every session in the working positions — not as doctrine, but so you can see what's on the table and react to it.
 
-When the session touches competitive positioning, segment messaging, persona value props, or any question about how Field relates to other players in the wealth stack, also load `skills/messaging-framework/references/wealth-ecosystem-map.md`. This is the terrain map — layers of the wealth ecosystem, key players in each, Field's relationship to each. Reason against the full terrain, not just Field's internal story. When the map is wrong or stale, flag it and propose an update.
-
 Your default mode is **content extraction**. Content comes in, you mine it, you pre-populate the framework with what's actually there, and you hand it back for reaction. Don't ask anyone to build from scratch if source material already exists — that's wasteful.
 
-## Working positions (Bill owns all final calls)
+## Working positions (May 6, 2026 — Bill owns all final calls)
 
-Bill is the final decider on every messaging question. Nothing is locked. These are working positions developed as a strawman — treat every one as a starting point, not a conclusion.
+Reload `skills/messaging-framework/references/field-ecosystem-decisions.md` at the start of any session that touches category, ecosystem, brand architecture, or vocabulary. What follows is a shorthand summary — the reference file is authoritative.
 
-- **Category — updated (April 2026 V2 deliverable):** Modern Wealth Infrastructure. Prior working positions "Field Wealth Intelligence" (public) and "Wealth Intelligence Network" (strategic) superseded.
-- **Tagline (leading candidate):** "The Groundwork for Modern Wealth." Full tagline families (Common Ground, Build On It, Intelligence) in `skills/messaging-framework/references/field-ecosystem-decisions.md`. Bill's call.
-- **RIA narrative lead — confirmed:** "Groundwork for modern wealth management." Maps to the Groundwork tagline family.
-- **Elevator pitch — locked:** "Field is modern wealth infrastructure. The groundwork beneath every tool, every partner, and every relationship in the ecosystem. When data flows freely across all of it, incentives align and capital works harder. Field is a foundation the whole industry can keep building on."
-- **Pillars — updated (5, from V2 deliverable):** The Complete Picture / Connection, Not Replacement / Built With the Industry, Not Just For It / A Field Is Possibility / Built to Last, Built to Grow. Full descriptions and "use when" guidance in `field-ecosystem-decisions.md`. Prior "See / Find / Be ready" shorthand superseded.
-- **Product suite — working (four offerings):** (1) Foundation [TBD name] — semantic intelligence layer, May 5 launch. (2) Advisor & Firm Experience — frontend product (unified advisor + firm, one offering), not May 5. (3) Asset Manager OS — distribution intelligence. (4) BridgeFT WealthTech API. Atlas, private markets product, and API marketplace are out of scope.
-- **Foundation naming parameters — working:** Literal↔Evocative / Standalone↔Field-prefixed / Accessible↔Pedigreed / Short↔Storied. Candidate buckets: Plain (Foundation, Ground, Core, Graph), Greek/Roman (Terra, Stoa, Arche, Aegis, Agora), Historical (Mendel, Ada, Euclid, Kepler). Killed by Bill: infrastructure metaphors as a class; Loom, Grid, Mesh, Anchor, Spine, Axis, Mercator, Dewey, Linnaeus, Mendeleev, Bedrock, Keystone, Fundus, Forum — do not resurface.
-- **Luca flag — active:** "Luca" is BridgeFT's internal pipeline name, not a product brand. Keep internal; never let it leak into customer-facing language.
-- **Governance model — working:** RIAs own their data. Network participation is opt-in. Asset managers and wealthtechs fund the network, which subsidizes RIA pricing.
-- **Vocabulary rule — working:** Field Platform = software. Field Network = multi-sided system (strategic category, not a product). Drop "ecosystem" from formal brand language.
-- **BridgeFT phasing — working:** Phase 1 light endorsement (May–Aug 2026), Phase 2 co-equal (Sep–Dec 2026), Phase 3 sunset (January 2027).
-- **Precept phasing — working:** Mirror the BridgeFT Option 1 pattern. Details TBD with Bill.
+- **Category — locked:** Modern Wealth Intelligence. Supersedes prior "Modern Wealth Infrastructure." Placement on homepage (nav, mono caps over-line, etc.) open — Bill to confirm.
+- **Tagline — locked:** "Common ground. Build on it." All prior tagline candidates superseded.
+- **Supporting line — locked:** "The groundwork for modern wealth management." Use as hero subtitle, footer brand line.
+- **Core insight — locked:** Intelligence is comprehension. The advisor stops being the translator and goes back to being the advisor.
+- **Architecture — locked:** Translation → Comprehension → Fluency. Three layers. Translation = data layer (extraction, ingestion, entity resolution). Comprehension = intelligence layer (opportunities visible, valuation drivers measurable). Fluency = action layer (firm acts on what it sees).
+- **Core claim — locked:** "Field is the only platform where advice fully interacts with the business the advisor runs." Lives in Section 04 of homepage. Vet with legal before launch.
+- **Four outcomes — locked:** Holistic advice. Organic growth. Operating leverage. A firm worth more.
+- **Elevator pitch — locked (May 6):** "Field is modern wealth intelligence. The groundwork beneath every tool, every partner, and every relationship in wealth management. When the picture is whole, advice can be too. The firm can see itself. Growth runs on signal. Value compounds. Field is the foundation the industry can keep building on."
+- **Pillars — locked (five, May 6):** (01) The Whole Picture. (02) Operating Leverage. (03) Holistic Advice. (04) Organic Growth. (05) A Firm Worth More. Each maps to a layer of the architecture; each has $15B+ and $1-15B registers. Full definitions in `field-ecosystem-decisions.md`. Prior pillar names (The Complete Picture / Connection, Not Replacement / Built With the Industry / A Field Is Possibility / Built to Last) superseded.
+- **Product suite — working:** (1) Foundation [TBD name] — semantic intelligence layer. (2) Advisor & Firm Experience — frontend, not yet launched. (3) Asset Manager OS — distribution intelligence. (4) BridgeFT WealthTech API. Atlas, private markets, API marketplace: out of scope.
+- **Foundation naming — open:** Killed by Bill (do not resurface): Loom, Grid, Mesh, Anchor, Spine, Axis, Mercator, Dewey, Linnaeus, Mendeleev, Bedrock, Keystone, Fundus, Forum — and infrastructure metaphors as a class. Remaining candidates in `field-ecosystem-decisions.md`. Bill decides.
+- **Luca — internal only:** BridgeFT's internal pipeline name. Never customer-facing.
+- **BridgeFT — S3 locked:** Endorsed form is "Bridge, a Field product." Phased endorsement through Jan 2027. "BridgeFT" alone is deprecated for new external content. First-mention rule in press: "Bridge, a Field product" on first mention, "Bridge" alone thereafter.
+- **Precept phasing:** Same pattern as Bridge. Details TBD with Bill — hold on external language.
+- **Vocabulary:** Field Platform = software (RIA-facing surfaces). Field Network = multi-sided system (strategic context, investor decks — not RIA homepage). Drop "ecosystem" from formal brand language.
 - **Sequencing rule:** Lead RIA. Reveal Network. Never pitch all three audiences on one surface.
-
-Full context for each of these working positions, and the reasoning behind them, lives in `skills/messaging-framework/references/field-ecosystem-decisions.md`. Reload this reference at the start of any session that touches category, ecosystem, brand architecture, or vocabulary — not as doctrine, but so you know what has been considered.
+- **Governance model:** RIAs own their data. Network participation is opt-in. Asset managers and wealthtechs fund the network, which subsidizes RIA pricing.
 
 When a working position changes, update the reference file (or flag the needed update) and add an entry to the messaging journey log noting what shifted and why. The working positions are a snapshot, not a decree.
 
@@ -177,7 +177,6 @@ Every session writes a trace file to `Brand/Bill-Content/_sessions/YYYY-MM-DD-HH
 ## Loaded
 - content-index: N entries, most recent YYYY-MM-DD
 - ecosystem decisions: [y/n]
-- wealth ecosystem map: [y/n, reason]
 - content files read: [list with dates]
 
 ## Weighted
@@ -202,13 +201,13 @@ Keep it terse. This is a log, not a report.
 
 Before closing any substantive session, ask one question — exactly one — to close the feedback loop. Use `AskUserQuestion`:
 
-> "Anything shift today? Should I update the decisions file, the wealth-ecosystem map, or the banned-phrases list (`skills/messaging-framework/references/banned-phrases.md`)?"
+> "Anything shift today? Should I update the decisions file (`skills/messaging-framework/references/field-ecosystem-decisions.md`) or the banned-phrases list (`skills/messaging-framework/references/banned-phrases.md`)?"
 
 If the answer is no, write the session trace and stop. Don't prompt further.
 
 If the answer is yes, for each change:
 
-1. **Edit the reference file in place.** `field-ecosystem-decisions.md`, `wealth-ecosystem-map.md`, or the vocabulary section of `SKILL.md`. Make the surgical edit — old text out, new text in. Don't rewrite the surrounding prose.
+1. **Edit the reference file in place.** `field-ecosystem-decisions.md` or the vocabulary section of `SKILL.md`. Make the surgical edit — old text out, new text in. Don't rewrite the surrounding prose.
 
 2. **Log the shift to `Brand/Bill-Content/_decisions-log.md`.** Append one entry per change:
    ```

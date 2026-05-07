@@ -35,7 +35,7 @@ The framework evolves. Positions shift. The skill keeps two records so drift doe
 - **Decisions log** (`_decisions-log.md` in the content bucket) — append-only record of every shift in a working position. Before/after text, reasoning in the founder's own words, files touched. Template: `references/decisions-log-template.md`.
 - **Session trace** (`_sessions/YYYY-MM-DD-HHMM.md` in the content bucket) — terse end-of-session log of what was loaded, weighted, and cited. Makes output diagnosable when something lands wrong. Template: `references/session-trace-template.md`.
 
-Reference files (`field-ecosystem-decisions.md`, `wealth-ecosystem-map.md`, the SKILL.md vocabulary sections) are the source of truth for working positions. When a position shifts in a session, edit the reference file in place, log the shift to the decisions log, and note it in the session trace. The end-of-session ritual (ask once whether anything shifted) closes the loop.
+Reference files (`field-ecosystem-decisions.md`, the SKILL.md vocabulary sections) are the source of truth for working positions. When a position shifts in a session, edit the reference file in place, log the shift to the decisions log, and note it in the session trace. The end-of-session ritual (ask once whether anything shifted) closes the loop.
 
 ## Content Extraction: Mining Existing Content for the Framework
 

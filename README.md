@@ -12,11 +12,11 @@ A Claude Code plugin for Field's brand, messaging, and positioning work. Availab
 
 **Banned Phrases master list** — Single source of truth for all vocabulary enforcement. 80+ hard-banned words with replacements, 11 banned expression patterns with approved rewrites, and style rules. Loaded automatically by every skill and the agent.
 
-**Field ecosystem decisions** — Reference file with the working positions: category, RIA narrative lead, tagline families, governance model, Platform vs. Network vocabulary rule, BridgeFT and Precept phased transition. Nothing is locked — Bill is the decider.
+**Field ecosystem decisions** — Reference file with all working positions: category (Modern Wealth Intelligence), tagline (Common ground. Build on it.), architecture (Translation → Comprehension → Fluency), five pillars, four outcomes, BridgeFT S3 locked. May 6, 2026. Bill is the decider on all open items.
 
-**Wealth ecosystem map** — Terrain reference. Thirteen layers of the wealth stack, key players in each, Field's relationship to each. Loaded when positioning, competitive, or segment work comes up.
+**Anti-AI tells guide** — Enforcement reference for review sessions. Structural, reasoning, sentence-level, and opener/closer patterns that reveal AI authorship even when vocabulary is clean. Loaded in Review mode before banned-phrases.
 
-**Bill's Launch Brief skill** — Reads `Brand/Field-Brand-Launch-Critical-Path-Updated.xlsx`, filters Bill-owned tasks across all detail sheets, and generates a Field Brand Strategist-voiced weekly Monday brief. Bill-specific; not for general team use.
+**RIA segment messaging** — Approved language for both $15B+ and $1-15B registers. Lead narratives, positioning statements, layer-to-theme mapping, and what-not-to-say guidance. Loaded for any RIA-facing content.
 
 ---
 
@@ -40,7 +40,7 @@ That's it. No re-install needed for future updates — pull the latest from GitH
 
 After installing, you should see:
 - `messaging-strategist` available as an agent
-- `brand-voice`, `messaging-framework`, and `bill-launch-brief` available as skills
+- `brand-voice` and `messaging-framework` available as skills
 
 ---
 

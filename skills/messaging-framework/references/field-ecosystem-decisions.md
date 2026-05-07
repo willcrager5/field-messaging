@@ -1,72 +1,78 @@
 # Field Ecosystem & Branding — Working Positions
 
-**Date:** April 22, 2026
-**Author:** Will (strawman); updated with April 2026 V2 Brand Messaging Foundation deliverable
-**Status:** V2 — category, pillars, elevator pitch, and voice updated from the Phase 1 brand messaging deliverable. Tagline families are candidates pending Bill's pick. Bill is the decider on every messaging question.
-**Audience:** Bill (owner); shared with Kyung, BridgeFT team, GTM as a starting point
+**Date:** May 6, 2026
+**Author:** Will; consolidated from GTM Messaging Workshop and V2 Wireframe (Bill)
+**Status:** V3 — all locked decisions from May 6 GTM workshop integrated. Category, tagline, architecture, pillars, core claim, BridgeFT phasing updated. Bill is the decider on every open item.
+**Audience:** Bill (owner); shared with Kyung, GTM as working reference
 
-> This document captures Will's current thinking — a strawman developed to move the work forward. Each section represents a working position, not a settled decision. Bill can keep, sharpen, or reject any of it. When something changes, update this doc and log the shift in the messaging journey log.
+> Locked decisions are marked **locked**. Open items are marked **open**. When something changes, update this doc and log the shift in the messaging journey log.
 
 ---
 
-## Category
+## Locked Decisions (May 6, 2026)
 
-- **Category name:** Modern Wealth Infrastructure
-- **Tagline (leading candidate):** "The Groundwork for Modern Wealth" *(highlighted in V2 deliverable — see Tagline Candidates section below)*
-- **Prior working positions (superseded):** "Field Wealth Intelligence" (public/RIA) and "Wealth Intelligence Network" (strategic/investor) — both replaced by Modern Wealth Infrastructure.
-- Category operates in two tones; Bill picks based on room:
-  - *Authoritative / industry-level:* "Wealth management has never had a foundation." Observational. Names the structural problem. Stakes the claim.
-  - *Personal / human:* "That's what Field is." Speaks directly to the advisor. Delivers the answer.
+- **Category:** Modern Wealth Intelligence *(open: where this surfaces on the homepage — nav, mono caps over-line, or separate decision. Bill to confirm.)*
+- **Tagline:** Common ground. Build on it. **[locked]**
+- **Supporting line:** The groundwork for modern wealth management. **[locked]**
+- **Core insight:** Intelligence is comprehension. The advisor stops being the translator and goes back to being the advisor. **[locked]**
+- **Architecture:** Translation → Comprehension → Fluency **[locked]**
+- **Core claim:** Field is the only platform where advice fully interacts with the business the advisor runs. **[locked]** *(Lives in Section 04. Vet with legal before launch.)*
+- **Four outcomes:** Holistic advice. Organic growth. Operating leverage. A firm worth more. **[locked]**
+- **Homepage section order:** Hero → Necessity → Architecture → Outcomes → Audience Paths → Principles Teaser → Closing → Footer *(8 sections — partners section removed)* **[locked]**
+- **Brand architecture:** BridgeFT = Bridge, a Field product. S3 locked. Phased endorsement through Jan 2027. **[locked]**
 
-## RIA Narrative Lead
+*Prior category name "Modern Wealth Infrastructure" superseded. Prior tagline candidates superseded by locked tagline above.*
 
-**Groundwork for modern wealth management.** *(confirmed — maps to "The Groundwork for Modern Wealth" tagline family)*
+## Architecture — Translation → Comprehension → Fluency
 
-Your custodians, CRM, portfolio platform, asset managers, cash solutions — they stay exactly as they are. Field draws everything into a single coherent record, finally working together in a way it never has before. The fragmented becomes whole. The invisible, clear.
+Three layers. Each one takes work the firm has been doing and moves it underneath, so the picture finally becomes whole.
 
-*Closing line (from V2 deliverable):* "The foundation is here. Build on it."
+- **Layer 01 — Translation (Data layer).** Extraction, ingestion, entity resolution, quality. Where systems that speak different languages get translated into a shared one. The work the industry has called integration, done once, underneath everything else.
+- **Layer 02 — Comprehension (Intelligence layer).** Where translation becomes understanding. Opportunities the firm couldn't see become visible. Valuation drivers become measurable. The firm becomes legible to the person running it.
+- **Layer 03 — Fluency (Action layer).** *[open: Bill to confirm "fluency" as the word]* Where comprehension becomes capability. The firm acts on what it sees: holistic advice, organic growth, M&A integration, valuation drivers measured and managed.
 
-## Elevator Pitch (locked — north star for all messaging)
+*Keystone line:* "Field's kind of intelligence is the firm finally legible to the people who run it."
 
-> Field is modern wealth infrastructure. The groundwork beneath every tool, every partner, and every relationship in the ecosystem. When data flows freely across all of it, incentives align and capital works harder. Field is a foundation the whole industry can keep building on.
+## Elevator Pitch (updated — north star for all messaging)
 
-## Tagline Candidates (Bill to pick)
+> Field is modern wealth intelligence. The groundwork beneath every tool, every partner, and every relationship in wealth management. When the picture is whole, advice can be too. The firm can see itself. Growth runs on signal. Value compounds. Field is the foundation the industry can keep building on.
 
-**Leading candidate** *(highlighted in V2 deliverable):*
-- field / THE GROUNDWORK FOR MODERN WEALTH
+## Messaging Pillars (five — revised May 6)
 
-**The "Common Ground" family** *(lead with shared foundation)*
-- Field / Common ground.
-- Field / The ground the industry runs on.
-- Field / Common ground. Build on it.
-- Field / Common ground. Uncommon intelligence.
+**01 — The Whole Picture** *(Foundation — all three layers)*
+The advisory firm needs to be seen whole. Today, the picture is fragmented — scattered across systems that each describe the same clients in their own language. The advisor or operations team assembles the picture manually, after the fact, from pieces that were never designed to fit together. Field exists because the picture should already be whole. Operating leverage, growth, and enterprise value all depend on the same precondition: a firm that can see itself.
+- *$15B+ register:* The principals can see the firm — every advisor, every office, every acquired book — in one coherent view.
+- *$1-15B register:* The advisor sees the practice whole for the first time — every household, every relationship, every signal — instead of assembling fragments.
+- *One-line:* The picture should already be whole. Field makes it whole.
+- *Use when:* leading with product value, website headlines, any first-touch surface.
 
-**The "Build On It" family** *(lead with action and invitation)*
-- Field / Open to build on.
-- Field / Build on it.
-- Field / The intelligence layer. Build on it.
-- Field / The foundation the industry builds on.
+**02 — Operating Leverage** *(Translation layer)*
+The work of connecting systems, reconciling data, translating feeds falls on people. At $15B+, it falls on operations teams that scale to manage complexity rather than drive efficiency. At $1-15B, it falls on the founding advisor. When translation happens once, at the foundation level, those people get their time back. The operations team operates. The advisor advises.
+- *$15B+ register:* The infrastructure burden comes off the people. Ops teams stop being the reconciliation engine and focus on strategic initiatives.
+- *$1-15B register:* The advisor stops being the integration layer. The hours come back into the practice.
+- *One-line:* The work of connecting systems shouldn't fall on people. Field puts it underneath.
+- *Use when:* addressing operational pain, ops-team audiences, efficiency conversations.
 
-**The "Intelligence" family** *(nod to category name)*
-- Field / Where intelligence becomes common ground.
-- Field / Intelligence, open to all.
-- Field / Common ground. Uncommon intelligence.
+**03 — Holistic Advice** *(Comprehension layer)*
+The advisor chose this career to give advice. The picture they work from determines the quality of the advice they give. Today, that picture is assembled manually. The advice is only as complete as the time the advisor had to assemble it. When the picture is whole, the advisor sees the full client — assets, plan, risk, household, outside holdings — and gives advice that accounts for all of it.
+- *$15B+ register:* Every advisor across every office sees the full client in one coherent view. Advice quality stops depending on which systems a client's data lives in.
+- *$1-15B register:* The advisor sees the full client without pulling it together manually. The advice gets better because the picture is complete.
+- *One-line:* When the picture is whole, advice can be too.
+- *Use when:* advisor-facing surfaces, client experience conversations, differentiation from CRM/planning-only tools.
 
-*Prior one-liner candidates A/B/C superseded by the elevator pitch and tagline families above.*
+**04 — Organic Growth** *(Comprehension layer)*
+Growth depends on seeing what's in front of you. The signals that drive growth — organic, inorganic, referral-driven — are already in the firm's data. They're invisible because the picture is fragmented. When the picture becomes whole, the signals become visible. Growth runs on signal instead of fragments.
+- *$15B+ register:* Growth decisions run on signal. Organic growth, M&A integration, and recruiting all benefit from the same coherent picture.
+- *$1-15B register:* The advisor sees which households are growing, which clients need attention, where assets are moving.
+- *One-line:* The signals that drive growth are already in your data. Field makes them visible.
+- *Use when:* growth conversations, M&A integration context, principal-level audiences.
 
-## Messaging Pillars (five — updated from V2 brand messaging deliverable)
-
-1. **The Complete Picture** — For the first time, advisory firms can see across every household, every relationship, every account — unified, current, and complete. Not fragments. Not workarounds. The full view, in one place, finally available. *Use when: leading with product value, speaking to advisors about what changes day to day, website headlines, ads.*
-
-2. **Connection, Not Replacement** — Field doesn't replace what firms have built. It goes underneath it, connecting what was fragmented. The tools stay. The workflows stay. What changes is that everything finally runs on common ground: connected, coherent, complete. *Use when: addressing objections, explaining the product, differentiating from rip-and-replace solutions.*
-
-3. **Built With the Industry, Not Just For It** — The largest asset managers, wealthtechs, and custodians in the channel are partners in building Field. A collective where no single firm owns the ground, but many tend it together. At the center of all of it is the advisor — the person who carries the trust and owns the relationship. *Use when: building credibility, explaining the ecosystem model, speaking to institutional partners, humanizing the stakes.*
-
-4. **A Field Is Possibility** — A field lets you see far. It holds what's built on it. It's open, boundless, shared. When the foundation is right, scale becomes achievable, advice becomes holistic, and the firm's value compounds. The name is the promise. *Use when: inspiring action, closing a narrative, speaking to growth and future potential.*
-
-5. **Built to Last, Built to Grow** — This is not a product that gets replaced when the next wave arrives. It is infrastructure, the kind that holds steady and gets more powerful as the network grows, the data deepens, and technology advances. The foundation doesn't expire. It compounds. *Use when: speaking to future-proofing, differentiating from point solutions, addressing concerns about AI and technology change, speaking to long-term firm value.*
-
-*Prior pillar shorthand "See / Find / Be ready" superseded by the above.*
+**05 — A Firm Worth More** *(Fluency layer)*
+A firm that can see itself clearly can demonstrate its value clearly. At $15B+, enterprise value is not abstract — these firms are valued, acquired, recapitalized. At $1-15B, every founding advisor faces the succession question: what is this practice worth without me? In both cases, the answer depends on whether the intelligence is in a system or in people's heads. A firm where the intelligence is in the system — visible, measurable, demonstrable — is worth more.
+- *$15B+ register:* Enterprise value compounds when the intelligence is in the system. The firm becomes legible to any outside party: acquirers, investors, next-generation partners.
+- *$1-15B register:* The practice becomes transferable beyond the founder. Measured, demonstrated, and grown by someone other than the person who started it.
+- *One-line:* A firm that can see itself clearly can prove what it's worth.
+- *Use when:* valuation conversations, succession planning, long-term firm value, investor or acquirer audiences.
 
 ## Voice & Tone (from V2 brand messaging deliverable)
 
@@ -117,13 +123,18 @@ Three buckets to work against the parameters. No recommendation — all may be u
 
 **Killed explicitly by Bill (do not resurface):** Loom, Grid, Mesh, Anchor, Spine, Axis, Mercator, Dewey, Linnaeus, Mendeleev, Bedrock, Keystone, Fundus, Forum. Infrastructure metaphors rejected as a class.
 
-## BridgeFT API — Naming Flag (Luca)
+## BridgeFT Brand Transition — S3 Locked
 
-**Watch:** "Luca" is the internal name of the BridgeFT pipeline — the infrastructure currently powering BridgeFT's API delivery. It is *not* a product name and was not floated as a brand candidate. Risk: pipeline name leaks into customer-facing language and confuses "Luca" the pipeline with the API offering itself. Language discipline: the offering is "BridgeFT WealthTech API" (or "Field WealthTech API" post-sunset). Luca stays internal.
+**Locked:** BridgeFT = Bridge, a Field product. S3 brand architecture locked May 6.
+
+- **Endorsed form (external, now through Jan 2027):** "Bridge, a Field product." Not "BridgeFT, part of Field" — that was Phase 1 language, now superseded.
+- **January 2027:** Full sunset. bridgeft.com redirects to field.com/developers. Wordmark retired.
+- **First-mention rule in press:** "Bridge, a Field product" on first mention; "Bridge" alone thereafter.
+- **Never:** "BridgeFT" as standalone brand on new external surfaces. "Luca" (internal pipeline name only — never customer-facing).
 
 ## Precept — Brand Phasing
 
-Precept (like BridgeFT) is a prior brand now absorbed into Field. Recommend mirroring the **BridgeFT Option 1 phased endorsement** pattern: light endorsement through launch, co-equal transition in H2, full sunset on a similar timeline. Details to finalize with Bill.
+Precept follows the same phased endorsement pattern as Bridge. Details TBD with Bill. Hold on external language until clarified.
 
 ## Three-Audience Map
 
@@ -139,10 +150,13 @@ RIAs own their data. Network participation is opt-in. Data leaving a firm is agg
 
 ## Vocabulary Rule
 
-- **Field Platform** = the software customers pay for and run their practice on.
-- **Field Network** = the broader multi-sided system (RIAs + AMs + wealthtechs + BridgeFT + data asset). Strategic category, not a product.
-- BridgeFT endorser uses **"part of the Field Network."** RIA-facing surfaces use "Field Platform" or just "Field."
-- Drop "ecosystem" from formal brand language.
+- **"Modern Wealth Intelligence"** = the category name. Use where category framing belongs (homepage, investor decks, press). Placement on homepage still open — Bill to confirm.
+- **"Field Platform"** = the software. Use on RIA-facing surfaces.
+- **"Field Network"** = the multi-sided system. Strategic context, investor decks — not RIA homepage.
+- **"Bridge, a Field product"** = endorsed form for BridgeFT on all external surfaces now. "BridgeFT" alone is deprecated for new content.
+- **"Common ground. Build on it."** = the tagline. Locked.
+- **"The groundwork for modern wealth management."** = supporting line. Locked. Use as hero subtitle, footer brand line.
+- Drop "ecosystem" from formal brand language. Drop "Modern Wealth Infrastructure" — superseded.
 
 ## Homepage Architecture
 
@@ -185,6 +199,15 @@ RIAs own their data. Network participation is opt-in. Data leaving a firm is agg
 - Sunset comms plan — Q4 2026 planning list
 
 ## Change log
+
+### 5/6 vs. 4/22 (GTM Messaging Workshop + V2 Wireframe Bill integrated)
+- Updated: Category — "Modern Wealth Intelligence" replaces "Modern Wealth Infrastructure"
+- Locked: Tagline — "Common ground. Build on it." Supersedes all prior candidates
+- Locked: Supporting line — "The groundwork for modern wealth management."
+- Added: Core insight, Architecture (Translation → Comprehension → Fluency), Core claim, Four outcomes
+- Updated: Messaging pillars — five pillars revised with $15B+/$1-15B registers and one-liners
+- Updated: BridgeFT — S3 locked, "Bridge, a Field product" is now endorsed form
+- Updated: Vocabulary rule — new category name, locked tagline/supporting line, Bridge endorsed form
 
 ### 4/22 vs. 4/15 (V2 brand messaging deliverable incorporated)
 - Updated: Category — "Modern Wealth Infrastructure" replaces "Field Wealth Intelligence" / "Wealth Intelligence Network"

@@ -19,11 +19,12 @@ This skill applies what's already been decided. It doesn't re-litigate positioni
 
 ## What to Load Before Running
 
-Before generating or reviewing anything, load all three:
+Before generating or reviewing anything, load all four:
 
-1. **Working positions** — `skills/messaging-framework/references/field-ecosystem-decisions.md`. Active decisions on category, product suite, pillars, vocabulary, sequencing, and brand architecture. Do not skip this.
+1. **Working positions** — `skills/messaging-framework/references/field-ecosystem-decisions.md`. Active decisions on category, tagline, architecture, pillars, vocabulary, sequencing, and brand architecture. Do not skip this.
 2. **Agent context** — The "Working Positions" section of `agents/messaging-strategist.md`. Shorthand flags and active rules; faster to apply than the full reference document.
 3. **Banned phrases — master list** — `skills/messaging-framework/references/banned-phrases.md`. The single source of truth for every banned word, banned expression pattern, and style rule. Load it. Enforce every item in every output. Nothing slips through.
+4. **Anti-AI tells — review guide** — `skills/messaging-framework/references/anti-ai-tells.md`. Load for all Review sessions. Structural, reasoning, and rhythmic tells that reveal AI authorship even when vocabulary is clean. Run this before banned-phrases in review mode.
 
 If any source has been updated since the last session, the new version takes precedence.
 
@@ -74,11 +75,13 @@ Specific Field-brand additions not in the master list:
 - "Foundation" naming candidates — hold off on any candidate name until Bill decides.
 
 **Brand vocabulary quick reference:**
+- "Modern Wealth Intelligence" = the category name. Replaces "Modern Wealth Infrastructure." Use where category framing belongs.
+- "Common ground. Build on it." = the tagline. Locked.
+- "The groundwork for modern wealth management." = supporting line. Locked. Hero subtitle, footer.
 - "Field Platform" = the software. Use on RIA-facing surfaces.
-- "Field Network" = the multi-sided system. Strategic context, investor decks, ecosystem narrative — not RIA homepage.
-- "Modern Wealth Infrastructure" = the category name. Replaces "Field Wealth Intelligence" and "Wealth Intelligence Network."
-- BridgeFT: currently in Phase 1 light endorsement. Endorsed form: "BridgeFT, part of Field." Not yet "Field WealthTech API" on external surfaces.
-- Precept: same phasing pattern as BridgeFT. Details TBD with Bill — hold until clarified.
+- "Field Network" = the multi-sided system. Strategic context, investor decks — not RIA homepage.
+- Bridge: endorsed form is "Bridge, a Field product." "BridgeFT" alone is deprecated for new external content.
+- Precept: same phasing pattern as Bridge. Details TBD with Bill — hold until clarified.
 - "Luca" = internal pipeline name only. Never customer-facing.
 
 ---
@@ -148,13 +151,14 @@ Don't explain every sentence. Flag only the choices worth reviewing.
 
 ### What review checks
 
-Run content through four lenses:
+Run in this order:
 
-1. **Banned phrases** — Load `skills/messaging-framework/references/banned-phrases.md` and check every word and expression pattern against the master list. This is the first pass, not an afterthought. Flag every hit by name.
-2. **Voice** — Does it sound like Field? Peer register? Any throat-clearing, vendor-speak, or generic SaaS phrases?
-3. **Vocabulary** — Are the vocabulary rules being followed? Check: avoid/never words, architecture words (platform vs. network vs. ecosystem), product names at the correct phase, BridgeFT/Precept endorser lines.
-4. **Positioning accuracy** — Does it reflect current working positions? Check: category claim, product suite (four offerings — correct names and scopes), audience sequencing (RIA-first), pillar alignment.
-5. **Sequencing** — Right message for this surface and audience? Would the wrong audience be confused or misled?
+1. **Anti-AI tells** — Load `skills/messaging-framework/references/anti-ai-tells.md` and run the full checklist. This is the first pass. AI writing can pass every other check and still read like AI. Start here.
+2. **Banned phrases** — Load `skills/messaging-framework/references/banned-phrases.md` and check every word and expression pattern. Flag every hit by name.
+3. **Voice** — Does it sound like Field? Peer register? Short sentences. Claims stated flatly. No throat-clearing. No timid hedges.
+4. **Vocabulary** — Are vocabulary rules followed? Check: category name (Modern Wealth Intelligence), tagline (Common ground. Build on it.), architecture words (platform vs. network), Bridge endorsed form ("Bridge, a Field product"), Precept phasing.
+5. **Positioning accuracy** — Does it reflect current locked positions? Check: category claim, architecture framing (Translation/Comprehension/Fluency), four outcomes, pillar alignment, audience sequencing (RIA-first).
+6. **Sequencing** — Right message for this surface and audience? Would the wrong audience be confused or misled?
 
 ### Output format
 

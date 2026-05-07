@@ -19,12 +19,12 @@ This skill applies what's already been decided. It doesn't re-litigate positioni
 
 ## What to Load Before Running
 
-Before generating or reviewing anything, load all four:
+Before generating or reviewing anything, load all five:
 
 1. **Working positions** — `skills/messaging-framework/references/field-ecosystem-decisions.md`. Active decisions on category, tagline, architecture, pillars, vocabulary, sequencing, and brand architecture. Do not skip this.
 2. **Agent context** — The "Working Positions" section of `agents/messaging-strategist.md`. Shorthand flags and active rules; faster to apply than the full reference document.
 3. **Banned phrases — master list** — `skills/messaging-framework/references/banned-phrases.md`. The single source of truth for every banned word, banned expression pattern, and style rule. Load it. Enforce every item in every output. Nothing slips through.
-4. **Anti-AI tells — review guide** — `skills/messaging-framework/references/anti-ai-tells.md`. Load for all Review sessions. Structural, reasoning, and rhythmic tells that reveal AI authorship even when vocabulary is clean. Run this before banned-phrases in review mode.
+4. **Anti-AI tells** — `skills/messaging-framework/references/anti-ai-tells.md`. Load for every session — generate and review alike. In generate mode, these patterns are live constraints: do not write in ways that trigger them. In review mode, run this checklist first, before banned-phrases. AI writing can pass every vocabulary check and still read like AI. This file is how you catch it — and how you avoid producing it.
 5. **RIA segment messaging** — `skills/messaging-framework/references/segment-messaging-rias.md`. Load when generating or reviewing any RIA-facing content. Contains approved language for both $15B+ and $1-15B registers, lead narratives, positioning statements, and what-not-to-say guidance. Do not generate segment content from memory.
 
 If any source has been updated since the last session, the new version takes precedence.
@@ -59,6 +59,7 @@ Field's brand voice is grounded in Bill's voice as founder — sharp, experience
 - Arrive at the point. Field doesn't wind up. It states. The period earns its place.
 - Sequencing matters: lead RIA, reveal Network. Never pitch all three audiences on one surface.
 - Make claims. Don't hedge into passivity.
+- Write against the anti-AI tells in `skills/messaging-framework/references/anti-ai-tells.md`. Every structural habit, reasoning pattern, and rhythmic tell in that file is a live constraint during drafting — not just a post-hoc checklist. Do not announce before doing. Do not restate what you just said. Do not use transition crutches. Do not open with epoch-framing. Do not close with aspiration. Use fragments deliberately. Vary sentence length. Repeat key words when repetition is the right move — don't vary for the sake of varying. The test: could Bill have written this?
 
 **Never use:**
 The complete banned-word and banned-pattern list is in `skills/messaging-framework/references/banned-phrases.md`. It must be loaded before any generate or review session (see "What to Load Before Running" above). Enforce every item. Do not rely on memory or a partial inline list.

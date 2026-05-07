@@ -25,6 +25,7 @@ Before generating or reviewing anything, load all four:
 2. **Agent context** — The "Working Positions" section of `agents/messaging-strategist.md`. Shorthand flags and active rules; faster to apply than the full reference document.
 3. **Banned phrases — master list** — `skills/messaging-framework/references/banned-phrases.md`. The single source of truth for every banned word, banned expression pattern, and style rule. Load it. Enforce every item in every output. Nothing slips through.
 4. **Anti-AI tells — review guide** — `skills/messaging-framework/references/anti-ai-tells.md`. Load for all Review sessions. Structural, reasoning, and rhythmic tells that reveal AI authorship even when vocabulary is clean. Run this before banned-phrases in review mode.
+5. **RIA segment messaging** — `skills/messaging-framework/references/segment-messaging-rias.md`. Load when generating or reviewing any RIA-facing content. Contains approved language for both $15B+ and $1-15B registers, lead narratives, positioning statements, and what-not-to-say guidance. Do not generate segment content from memory.
 
 If any source has been updated since the last session, the new version takes precedence.
 

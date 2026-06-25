@@ -16,6 +16,8 @@ A Claude Code plugin for Field's brand, messaging, and positioning work. Availab
 
 **Anti-AI tells guide** — Enforcement reference for review sessions. Structural, reasoning, sentence-level, and opener/closer patterns that reveal AI authorship even when vocabulary is clean. Loaded in Review mode before banned-phrases.
 
+**Voice Enforcement skill** — Load at session start to make the anti-AI tells, the banned-phrases list, and a before/after pattern library active constraints for the rest of the session. Three parts: Part A (Field's anti-AI tells), Part B (banned phrases and hard-ban expression patterns), and Part C (a 33-pattern library with before/after examples adapted from Wikipedia's "Signs of AI writing," tuned to Field's surfaces and cross-referenced against A and B so nothing is enforced twice). Adds a draft → audit → final rewrite loop. Trigger phrases include "load enforcement," "apply Field voice rules," and "humanize this."
+
 **RIA segment messaging** — Approved language for both $15B+ and $1-15B registers. Lead narratives, positioning statements, layer-to-theme mapping, and what-not-to-say guidance. Loaded for any RIA-facing content.
 
 ---

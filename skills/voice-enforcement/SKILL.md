@@ -1,28 +1,32 @@
 ---
 name: voice-enforcement
 description: |
-  Load Field's vocabulary enforcement and anti-AI voice standards at the start of any session. Invoke this skill before writing or reviewing any content — LinkedIn posts, emails, deck copy, website sections, one-pagers, outreach, internal announcements, or any other surface. Once loaded, both the banned-phrases list and the anti-AI tells guide are active constraints for the rest of the session. Nothing slips through. Trigger phrases: "load enforcement," "load voice standards," "apply Field voice rules," or invoke directly at session start.
+  Load Field's vocabulary enforcement and anti-AI voice standards at the start of any session. Invoke this skill before writing or reviewing any content — LinkedIn posts, emails, deck copy, website sections, one-pagers, outreach, internal announcements, or any other surface. Once loaded, the anti-AI tells, the banned-phrases list, and the before/after pattern library are active constraints for the rest of the session. Includes a draft → audit → final rewrite loop. Nothing slips through. Trigger phrases: "load enforcement," "load voice standards," "apply Field voice rules," "humanize this," "make this sound human," or invoke directly at session start.
 ---
 
 # Voice Enforcement — Field Brand Standards
 
-Load this skill at the start of any session where you will write or review Field-branded content. Both enforcement guides below are active constraints for the session — not checklists to run at the end.
+Load this skill at the start of any session where you will write or review Field-branded content. Every guide below is an active constraint for the session — not a checklist to run at the end.
 
 ---
 
 ## How to apply these rules
 
-**When writing:** Both guides are live constraints during drafting. Do not produce output that violates them. The test on everything you write: could Bill have written this?
+**When writing:** Every guide is a live constraint during drafting. Do not produce output that violates them. The test on everything you write: could Bill have written this?
 
-**When reviewing:** Run anti-AI tells first (Category 4 openers/closers, then Category 1 structural, then Category 2 reasoning, then Category 3 sentence-level). Then run banned phrases. Flag every hit by name. Rewrite from the claim outward — don't patch in place.
+**When reviewing:** Run anti-AI tells first (Part A — Category 4 openers/closers, then Category 1 structural, then Category 2 reasoning, then Category 3 sentence-level). Then run banned phrases (Part B). Then sweep the pattern library (Part C) for anything the first two passes missed. Flag every hit by name. Rewrite from the claim outward — don't patch in place.
+
+### The rewrite loop: draft → audit → final
+
+When you rewrite a piece of content, don't ship the first pass. Run it twice.
+
+1. **Draft.** Rewrite the content, removing the patterns flagged in Parts A–C. Cover everything the original covers. If the original has five paragraphs, the rewrite has five paragraphs.
+2. **Audit.** Read the draft as if you'd never seen it and ask one question: does any line still read as obviously AI-generated? Check the read-aloud test again. Look for tells that survived the first pass — the smoothed-over hedge, the surviving em dash, the paragraph that still closes too neatly.
+3. **Final.** Rewrite the lines the audit caught. Then deliver only the final version, with a short list of what you changed and why.
 
 ---
 
-## Part A — Anti-AI Tells
-
-AI writing can pass every vocabulary check and still read like AI. These are the structural, reasoning, and rhythmic patterns that give it away.
-
-### The read-aloud test
+## The read-aloud test
 
 Before any checklist: read the content aloud. AI writing has a specific sound — even pace throughout, every sentence grammatically complete, paragraphs that begin, develop, and close. No acceleration, no compression, no fragments.
 
@@ -31,6 +35,10 @@ Bill's writing sounds different. Short sentences after long ones. Fragments used
 If it sounds smooth all the way through, it needs work.
 
 ---
+
+## Part A — Anti-AI Tells
+
+AI writing can pass every vocabulary check and still read like AI. These are the structural, reasoning, and rhythmic patterns that give it away.
 
 ### Category 1 — Structural Tells
 
@@ -147,8 +155,6 @@ Fix: State what Field does. Skip the frame.
 ## Part B — Banned Phrases
 
 Remove or replace every item below. No exceptions. Flag every hit by name and propose a specific replacement.
-
----
 
 ### Tech & product hype
 
@@ -305,3 +311,185 @@ Fix: A period. Em dashes are acceptable for a true parenthetical aside only.
 - No hype tone. No exclamation marks in body copy. Claims land harder when stated plainly.
 - Don't invent. No new stories, numbers, or promises that weren't in the source.
 - Same length. Don't expand or compress significantly when editing.
+
+---
+
+## Part C — Pattern Library (with before/after)
+
+Parts A and B catch Field's structural tells and banned vocabulary. Part C is the wider net: the content-puffing, formatting, and machine-residue patterns that survive a clean vocabulary pass. Each has a before and an after. Where a pattern is already covered in Part A or B, it's listed once with a cross-reference instead of repeated.
+
+Source: adapted from Wikipedia's "Signs of AI writing" guide (WikiProject AI Cleanup), tuned to Field's surfaces.
+
+### Content patterns
+
+**C1. Significance inflation**
+Puffs up importance by claiming something marks a moment, a shift, or a broader trend.
+Before: "Field's data layer marks a pivotal moment in the evolution of wealth technology."
+After: "Field standardizes account data from custodians and portfolio systems into one feed advisors can build on."
+
+**C2. Notability name-dropping**
+Lists names or coverage without context to manufacture credibility.
+Before: "Trusted by RIAs, broker-dealers, TAMPs, and family offices across the country."
+After: "Field runs the data layer for [named firm], a $4B RIA, across three custodians."
+
+**C3. Superficial -ing analyses**
+Tacks present-participle phrases onto a sentence to fake depth. (Related to Part A 3.2.)
+Before: "Field unifies custodial feeds, enabling cleaner reporting, ensuring fewer errors, and empowering advisors to focus on clients."
+After: "Field unifies custodial feeds. Reporting pulls from one source, so reconciliation breaks show up in one place instead of five."
+
+**C4. Promotional / advertisement language**
+Brochure adjectives in place of facts.
+Before: "Field is a groundbreaking platform nestled at the heart of the modern advisor's tech stack."
+After: "Field sits between custodians and the advisor's reporting tools and normalizes the data moving between them." (See also Part B hype and adjective tables.)
+
+**C5. Vague attributions / weasel words**
+Opinions assigned to unnamed authorities.
+Before: "Industry experts agree that fragmented data is the biggest barrier for growing RIAs."
+After: "In a 2024 Cerulli survey, [X]% of RIAs named data reconciliation as their top operational cost." (Only if the source is real. Don't invent — see Part B style rules.)
+
+**C6. Formulaic "challenges and future" sections**
+The "Despite challenges... continues to thrive" template.
+Before: "Despite integration challenges, Field continues to thrive as the advisor ecosystem evolves."
+After: "Two custodians changed their file formats in 2025. Field rebuilt both connectors within the quarter."
+
+### Language patterns
+
+**C7. AI vocabulary** — Covered in Part B (consulting clichés, inflated nouns, hype). Words like delve, leverage, landscape, testament, robust, seamless. Flag against Part B.
+
+**C8. Copula avoidance**
+Elaborate constructions standing in for "is" and "has."
+Before: "Field serves as the connective layer that boasts coverage across every major custodian."
+After: "Field is the data layer between custodians and advisor tools. It covers every major custodian."
+
+**C9. Negative parallelisms / tailing negations** — Covered in Part A 3.3 and Part B pattern D. Includes clipped negations bolted onto a sentence ("...no reconciliation, no guessing"). Write the real clause instead.
+
+**C10. Rule of three**
+The reflexive three-item list when the content doesn't call for three.
+Before: "Field delivers clarity, confidence, and control."
+After: "Field gives advisors one clean account feed." Use the number of items the point actually needs.
+
+**C11. Synonym cycling** — The inverse of Part A 3.8. AI rotates "the platform / the system / the solution / the tool" to avoid repeating a word. Repeat the right word when it's clearest.
+
+**C12. False ranges**
+"From X to Y" framing that implies a spectrum that isn't there.
+Before: "Field handles everything from data ingestion to client trust."
+After: "Field ingests custodial files, normalizes them, and exposes one API." List what it does.
+
+**C13. Passive voice / subjectless fragments**
+Hides who acts.
+Before: "Errors are surfaced and reconciliation is handled automatically."
+After: "Field surfaces mismatched balances and flags them for the ops team to clear." Name the actor when it helps.
+
+### Style and formatting patterns
+
+**C14. Em / en dashes** — Hard cut. Covered in Part B pattern K. Periods, commas, colons, or parentheses. Em dash only for a true parenthetical aside.
+
+**C15. Boldface overuse**
+Bolding terms that don't need emphasis.
+Before: "Field connects to **custodians**, **portfolio accounting**, and **CRMs**."
+After: "Field connects to custodians, portfolio accounting systems, and CRMs."
+
+**C16. Inline-header lists**
+"**Term:** sentence" bullets that should be prose.
+Before: "**Coverage:** Every major custodian. **Speed:** Same-day onboarding."
+After: "Field covers every major custodian and onboards a new firm the same day."
+
+**C17. Title Case Headings**
+Before: "Strategic Data Partnerships And Integrations"
+After: "Strategic data partnerships and integrations" (sentence case).
+
+**C18. Emojis**
+Remove them from body copy. "🚀 Launch" → "Launch".
+
+**C19. Curly vs straight quotes**
+Keep punctuation consistent with the surface's house style. Don't mix.
+
+**C20. Hyphenated word-pair overuse**
+Before: "cross-functional, data-driven, client-facing teams"
+After: "teams that work across functions and talk to clients." Drop the reflexive hyphen stacks.
+
+**C21. Persuasive authority tropes** — Covered in Part A 4.2 ("At its core..."). State the point.
+
+**C22. Signposting announcements** — Covered in Part A 1.1 ("Let's dive in," "Here's what you need to know"). Start with the content.
+
+**C23. Fragmented headers**
+A header followed by a one-line restatement of the header.
+Before: "## Speed" then "Speed matters."
+After: Let the heading do the work, or write a real sentence under it.
+
+**C24. Diff-anchored writing**
+Describes what changed instead of what the thing is. Common when editing.
+Before: "This section was updated to replace the old onboarding copy."
+After: "Onboarding takes one day: connect the custodian, map the accounts, go live."
+
+**C25. Manufactured punchlines / staccato drama** — Related to Part B pattern D and Part A 3.6. "It had no dashboard. No spreadsheet. No workaround." Use varied lengths and concrete claims.
+
+**C26. Aphorism formulas**
+A neat maxim standing in for a real claim.
+Before: "Clean data is the language of trust."
+After: "When the numbers match across custodians, the advisor stops re-checking them by hand."
+
+**C27. Conversational rhetorical openers**
+Fake-candid setups.
+Before: "Honestly? Data integration is hard."
+After: "Data integration is hard because every custodian formats files differently."
+
+### Communication patterns (machine residue)
+
+**C28. Chatbot artifacts**
+Remove assistant scaffolding entirely: "I hope this helps! Let me know if you'd like me to expand on any section." "Here's a draft for you:" "Sure! Happy to help with that."
+
+**C29. Cutoff / source disclaimers**
+"While details are limited in available sources..." / "As of my last update..." Find the fact or cut the line. Don't speculate to fill a gap.
+
+**C30. Sycophantic tone**
+"Great question!" / "You're absolutely right!" / "Excellent point!" Respond directly. (See also Part B — no exclamation marks in body copy.)
+
+### Filler and hedging
+
+**C31. Filler phrases**
+"In order to" → "To". "Due to the fact that" → "Because". "At this point in time" → "Now".
+
+**C32. Excessive hedging** — Covered in Part A 3.4. "could potentially possibly" → "may". Cut stacked hedges.
+
+**C33. Generic conclusions**
+"The future looks bright." / "Exciting times ahead." Replace with a specific plan, fact, or next step — or end on the last real point.
+
+---
+
+## Voice, not just clean
+
+Stripping AI tells is half the job. Voiceless copy is as obvious as slop — it reads like a press release nobody signed. Apply this where the surface wants a voice: LinkedIn posts, essays, founder notes, opinion. For reference, legal, or spec copy, plain and neutral is the correct human voice; don't inject opinion or first person there.
+
+Signs of soulless writing even when it's technically clean: every sentence the same length, no opinion, no acknowledgment of trade-offs, no first person where it fits, no edge. Reads like a Wikipedia stub.
+
+How to add voice: have a position and state it. Vary the rhythm — short sentence, then a longer one that takes its time. Let some mess in; a tangent or a half-formed aside is human. Keep it Bill's voice, not generic "human" voice.
+
+---
+
+## Worked example
+
+**Before (obvious AI):**
+> Great question! Here's a draft for you.
+>
+> In today's rapidly evolving wealth management landscape, Field stands as a transformative, AI-powered platform that marks a pivotal moment in the evolution of advisor technology. At its core, Field seamlessly unifies fragmented custodial data—empowering advisors, enhancing workflows, and fostering trust. It's not just a data layer; it's a revolution. Industry experts agree that this kind of innovation is reshaping the future of the entire ecosystem.
+>
+> - 🚀 **Speed:** Onboarding is significantly faster.
+> - 💡 **Clarity:** Reporting is enhanced through unified data.
+>
+> While details are limited, it could potentially be argued that the future looks bright. Let me know if you'd like me to expand on any section!
+
+**After (Field voice):**
+> Advisors at growing RIAs pull account data from three or four custodians, each in its own format. Reconciling it by hand is where the week goes.
+>
+> Field normalizes those feeds into one source. Connect the custodian, map the accounts, and reporting runs off matched data instead of five spreadsheets. When a custodian changed its file format last year, we rebuilt the connector in a quarter and firms never touched it.
+>
+> Onboarding takes a day. That's the whole pitch.
+
+What changed: cut the chatbot frame and the closer (C28), the epochal opener (4.1), "AI-powered" and "transformative" and "revolution" (Part B), "seamlessly" and the -ing stack (C3, Part B), the "not just X, it's Y" escalation (3.3), the vague "experts agree" (C5), the emoji inline-header bullets (C15, C16, C18), and the "future looks bright" conclusion (C33). The after states what Field does, names the actual condition, and ends on the claim.
+
+---
+
+## Source
+
+Part A and Part B are Field's own enforcement standards. Part C is adapted from Wikipedia's "Signs of AI writing" (WikiProject AI Cleanup), narrowed to Field's surfaces and cross-referenced against Parts A and B so nothing is enforced twice.

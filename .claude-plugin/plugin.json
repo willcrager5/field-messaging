@@ -1,7 +1,7 @@
 {
   "name": "field-messaging",
-  "version": "0.4.1",
-  "description": "Field's brand, messaging, and positioning work — a Field Brand Strategist agent for messaging framework development and content extraction, a Brand Voice skill for generating and reviewing content in Field's voice, and a weekly Monday brief for Bill's brand-launch tasks. Available to all Field team members.",
+  "version": "0.5.0",
+  "description": "Field's brand, messaging, and positioning work — a Field Brand Strategist agent for messaging framework development and content extraction, a Brand Voice skill for generating and reviewing content in Field's voice, a Voice Enforcement skill with anti-AI tells, a banned-phrases list, a 33-pattern before/after library, and a draft-audit-final rewrite loop, and a weekly Monday brief for Bill's brand-launch tasks. Available to all Field team members.",
   "author": {
     "name": "Field"
   },

@@ -19,13 +19,11 @@ This skill applies what's already been decided. It doesn't re-litigate positioni
 
 ## What to Load Before Running
 
-Before generating or reviewing anything, load all five:
+Before generating or reviewing anything, load all three:
 
-1. **Working positions** — `skills/messaging-framework/references/field-ecosystem-decisions.md`. Active decisions on category, tagline, architecture, pillars, vocabulary, sequencing, and brand architecture. Do not skip this.
-2. **Agent context** — The "Working Positions" section of `agents/messaging-strategist.md`. Shorthand flags and active rules; faster to apply than the full reference document.
-3. **Banned phrases — master list** — `skills/messaging-framework/references/banned-phrases.md`. The single source of truth for every banned word, banned expression pattern, and style rule. Load it. Enforce every item in every output. Nothing slips through.
-4. **Anti-AI tells** — `skills/messaging-framework/references/anti-ai-tells.md`. Load for every session — generate and review alike. In generate mode, these patterns are live constraints: do not write in ways that trigger them. In review mode, run this checklist first, before banned-phrases. AI writing can pass every vocabulary check and still read like AI. This file is how you catch it — and how you avoid producing it.
-5. **RIA segment messaging** — `skills/messaging-framework/references/segment-messaging-rias.md`. Load when generating or reviewing any RIA-facing content. Contains approved language for both $15B+ and $1-15B registers, lead narratives, positioning statements, and what-not-to-say guidance. Do not generate segment content from memory.
+1. **Agent context** — The "Working Positions" section of `agents/messaging-strategist.md`. Active decisions on category, tagline, architecture, pillars, vocabulary, sequencing, and brand architecture.
+2. **Banned phrases — master list** — `skills/messaging-framework/references/banned-phrases.md`. The single source of truth for every banned word, banned expression pattern, and style rule. Load it. Enforce every item in every output. Nothing slips through.
+3. **Anti-AI tells** — `skills/messaging-framework/references/anti-ai-tells.md`. Load for every session — generate and review alike. In generate mode, these patterns are live constraints: do not write in ways that trigger them. In review mode, run this checklist first, before banned-phrases. AI writing can pass every vocabulary check and still read like AI. This file is how you catch it — and how you avoid producing it.
 
 If any source has been updated since the last session, the new version takes precedence.
 

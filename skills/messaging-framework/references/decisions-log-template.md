@@ -28,4 +28,4 @@ The agent writes to this file at the end of any session where a position shifted
 
 **Bill's reasoning:** "Network sounds like LinkedIn. Layer is more honest — we sit on top of everyone else's infrastructure, we don't replace it."
 
-**Files touched:** `skills/messaging-framework/references/field-ecosystem-decisions.md`
+**Files touched:** `agents/messaging-strategist.md` (Working positions section)

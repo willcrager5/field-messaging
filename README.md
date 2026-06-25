@@ -12,13 +12,9 @@ A Claude Code plugin for Field's brand, messaging, and positioning work. Availab
 
 **Banned Phrases master list** — Single source of truth for all vocabulary enforcement. 80+ hard-banned words with replacements, 11 banned expression patterns with approved rewrites, and style rules. Loaded automatically by every skill and the agent.
 
-**Field ecosystem decisions** — Reference file with all working positions: category (Modern Wealth Intelligence), tagline (Common ground. Build on it.), architecture (Translation → Comprehension → Fluency), five pillars, four outcomes, BridgeFT S3 locked. May 6, 2026. Bill is the decider on all open items.
-
 **Anti-AI tells guide** — Enforcement reference for review sessions. Structural, reasoning, sentence-level, and opener/closer patterns that reveal AI authorship even when vocabulary is clean. Loaded in Review mode before banned-phrases.
 
 **Voice Enforcement skill** — Load at session start to make the anti-AI tells, the banned-phrases list, and a before/after pattern library active constraints for the rest of the session. Three parts: Part A (Field's anti-AI tells), Part B (banned phrases and hard-ban expression patterns), and Part C (a 33-pattern library with before/after examples adapted from Wikipedia's "Signs of AI writing," tuned to Field's surfaces and cross-referenced against A and B so nothing is enforced twice). Adds a draft → audit → final rewrite loop. Trigger phrases include "load enforcement," "apply Field voice rules," and "humanize this."
-
-**RIA segment messaging** — Approved language for both $15B+ and $1-15B registers. Lead narratives, positioning statements, layer-to-theme mapping, and what-not-to-say guidance. Loaded for any RIA-facing content.
 
 ---
 
@@ -94,6 +90,6 @@ No re-install needed. The plugin picks up changes automatically on the next sess
 
 To add or remove a banned word or phrase: edit `skills/messaging-framework/references/banned-phrases.md` only. All skills and the agent load from that one file — nothing else needs to change.
 
-To update working positions: edit `skills/messaging-framework/references/field-ecosystem-decisions.md`. Log the change in `Brand/Bill-Content/_decisions-log.md` with before/after and Bill's reasoning.
+To update working positions: edit the "Working positions" section of `agents/messaging-strategist.md` directly. Log the change in `Brand/Bill-Content/_decisions-log.md` with before/after and Bill's reasoning.
 
 Maintained by Will (cragerw). Commit and push — the repo is the source of truth.

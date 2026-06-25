@@ -10,6 +10,8 @@ A Claude Code plugin for Field's brand, messaging, and positioning work. Availab
 
 **Messaging Framework skill** — The 10-section framework (Category, Ecosystem Narrative, Brand Architecture, Messaging Pillars, Segment Messaging, Persona Value Props, Competitive Positioning, Tone/Language/Vocabulary, Elevator Pitches, Objection Handling). Primary mode is content extraction — mine existing content, draft the framework, react and refine.
 
+**Content Audit skill** — Pre-send diagnostic for any piece of content. Three sequential checks: AI-tell patterns, banned phrases, and working-position alignment. Returns a structured report with a verdict (pass / light edits / heavy revision) and specific callouts. Use before anything goes to Bill or out the door.
+
 **Banned Phrases master list** — Single source of truth for all vocabulary enforcement. 80+ hard-banned words with replacements, 11 banned expression patterns with approved rewrites, and style rules. Loaded automatically by every skill and the agent.
 
 **Anti-AI tells guide** — Enforcement reference for review sessions. Structural, reasoning, sentence-level, and opener/closer patterns that reveal AI authorship even when vocabulary is clean. Loaded in Review mode before banned-phrases.
@@ -38,7 +40,7 @@ That's it. No re-install needed for future updates — pull the latest from GitH
 
 After installing, you should see:
 - `messaging-strategist` available as an agent
-- `brand-voice` and `messaging-framework` available as skills
+- `brand-voice`, `messaging-framework`, `content-audit`, and `voice-enforcement` available as skills
 
 ---
 
@@ -47,8 +49,11 @@ After installing, you should see:
 ### For content generation or review (most common)
 Use the **brand-voice** skill. Tell it what you're writing, who it's for, and what you want. It will load the current working positions and banned phrases automatically and either draft or review the content.
 
+### For a pre-send diagnostic
+Use the **content-audit** skill. Drop in the content, tell it what surface and audience it's for, and get a structured verdict with specific callouts. Use before anything goes to Bill or out the door.
+
 ### For messaging framework work
-Use the **messaging-strategist** agent. Drop content into `Brand/Bill-Content/` at your Cowork workspace root — LinkedIn posts, deck slides, memos, transcripts, anything. The agent reads it, extracts patterns, and works through the framework with you. Date filenames `YYYY-MM-DD-short-description.md`. No other organization required.
+Use the **messaging-strategist** agent. Drop content into `Brand/Content/` at your Cowork workspace root — LinkedIn posts, deck slides, memos, transcripts, anything. The agent reads it, extracts patterns, and works through the framework with you. Date filenames `YYYY-MM-DD-short-description.md`. No other organization required.
 
 ### For checking what's banned
 Open `skills/messaging-framework/references/banned-phrases.md` directly. Every banned word, every banned expression pattern, and every approved replacement is there.
@@ -58,7 +63,7 @@ Open `skills/messaging-framework/references/banned-phrases.md` directly. Every b
 ## How the agent works
 
 - Reads the full content bucket on first ask, recency-weighted
-- Updates `Brand/Bill-Content/_log.md` after each session so the messaging journey is visible over time
+- Updates `Brand/Content/_log.md` after each session so the messaging journey is visible over time
 - Cites source files when it extracts a pattern
 - Pushes back on banned phrases, cheap language, and data-forward advisor copy
 - Produces artifacts to `Brand/Drafts/`, `Brand/Messaging-Framework/`, and `Brand/Decisions/`
@@ -90,6 +95,6 @@ No re-install needed. The plugin picks up changes automatically on the next sess
 
 To add or remove a banned word or phrase: edit `skills/messaging-framework/references/banned-phrases.md` only. All skills and the agent load from that one file — nothing else needs to change.
 
-To update working positions: edit the "Working positions" section of `agents/messaging-strategist.md` directly. Log the change in `Brand/Bill-Content/_decisions-log.md` with before/after and Bill's reasoning.
+To update working positions: edit the "Working positions" section of `agents/messaging-strategist.md` directly. Log the change in `Brand/Content/_decisions-log.md` with before/after and your reasoning.
 
 Maintained by Will (cragerw). Commit and push — the repo is the source of truth.

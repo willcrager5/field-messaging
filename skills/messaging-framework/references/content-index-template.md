@@ -1,10 +1,10 @@
 # Content Index
 
-The authoritative record of Bill's content bucket. Maintained by the Field Brand Strategist agent. Do not edit manually unless correcting something the agent missed.
+The authoritative record of the content bucket. Maintained by the Field Brand Strategist agent. Do not edit manually unless correcting something the agent missed.
 
 ## How this works
 
-Filenames in `Brand/Bill-Content/` are whatever Bill wants. Dates, types, sources, and themes are tracked here. When Bill drops new content, the agent reads it, extracts metadata, and adds an entry below.
+Filenames in `Brand/Content/` are whatever you want. Dates, types, sources, and themes are tracked here. When new content is dropped in, the agent reads it, extracts metadata, and adds an entry below.
 
 ## Index
 

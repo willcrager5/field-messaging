@@ -283,5 +283,5 @@ These rules apply whenever generating or reviewing content.
 This file is the single source of truth. To add or remove a banned item:
 
 1. Edit this file directly.
-2. Log the change in `Brand/Bill-Content/_decisions-log.md` with before/after and Bill's reasoning.
+2. Log the change in `Brand/Content/_decisions-log.md` with before/after and your reasoning.
 3. No other files need updating — all skills and the agent load this file directly.

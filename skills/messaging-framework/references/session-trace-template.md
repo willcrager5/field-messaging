@@ -1,6 +1,6 @@
 # Session trace template
 
-Copy this template to `Brand/Bill-Content/_sessions/YYYY-MM-DD-HHMM.md` at the end of every substantive session. Keep it terse — half a page at most. This is a diagnostic log, not a report.
+Copy this template to `Brand/Content/_sessions/YYYY-MM-DD-HHMM.md` at the end of every substantive session. Keep it terse — half a page at most. This is a diagnostic log, not a report.
 
 ---
 
